@@ -1,0 +1,188 @@
+
+body {
+    font-size: small;
+    font-family: arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    color: rgb(90,90,90);
+}
+
+.Googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+p {
+    padding: 30px
+}
+
+#logoform {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 70px;
+}
+
+nav {
+    display: block;
+} 
+
+.navleft {
+    height: 45px;
+    width: 50%;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    height: 45px;
+    width: 50%;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mc {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#f1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: block;
+    margin-top: 10em;
+}
+
+#logoimg {
+    margin-bottom: 25px;
+}
+
+div {
+    display: block; 
+}
+
+#searchbox {
+    padding: 2px 1px;
+    border: 1px solid rgb(207,207,207);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+label {
+    padding: 5px 10px;
+}
+
+.magglass {
+    filter: contrast(10%);
+    -webkit-filter: contrast(10%);
+}
+
+#searchbox input {
+    border-style: none;
+    width: 400px;
+    height: 30px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+}
+
+#choice input {
+    padding: 6px 10px;
+    margin: 15px 10px;
+    border: 1px solid rgb(240,240,240);
+    border-radius: 3px;
+    background-color: rgb(240,240,240);
+    color: rgb(90,90,90);
+}
+
+footer {
+    display: block;
+    border-top: 1px solid;
+    border-color: rgb(207, 207, 207);
+    width: 100%;
+    height: 40px;
+    background-color: rgb(240,240,240);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer .left {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+footer .right {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(90,90,90);
+    padding: 5px 10px;
+    margin: 0em .25em;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.button {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 3px #4285f4 solid;
+    border-radius: 3px;
+}
